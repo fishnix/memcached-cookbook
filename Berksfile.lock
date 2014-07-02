@@ -1,8 +1,12 @@
 DEPENDENCIES
+  memcached
+    path: .
+    metadata: true
   yum (~> 3.2.1)
   yum-epel (~> 0.3.6)
 
 GRAPH
+  memcached (0.0.1)
   yum (3.2.2)
   yum-epel (0.3.6)
     yum (~> 3.0)
